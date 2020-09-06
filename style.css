@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,700');
+
+body
+{
+	margin: 0;
+}
+
+header{
+	background-color: black;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 50px;
+
+}
+header h1{
+	  display: inline;
+	  font-family: 'Indie Flower', cursive;
+	  font-weight: 500;
+	  font-size: 32px;
+	  float: left;
+	  margin-top: 0px; 
+	  margin-right: 10px;
+
+}
+nav ul{
+	display: inline;
+	padding: 0px;
+	float: left;
+
+}
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left :10px; 
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+
+
+}
+#nav{
+font-family: 'Dosis', sans-serif;
+}
+.homered{
+	background-color: red;
+	padding: 30px 10px 16px 10px;
+}
+.divider{
+	background-color: red;
+	height: 1px;
+}
+.homeblack:hover{
+	background-color: orange;
+	padding: 30px 10px 16px 10px;
+}
+.fwimage1{
+	background-image: url('image/e.jpg');
+	width:100%;
+	height:100vh;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+.homesub{
+	font-family: 'Dosis', sans-serif;
+	margin:0%;
+	padding: 9% 5% 0% 55%;
+	font-size: 18px;
+	color:red ;
+}
+.homedes{
+	font-family:'Dosis', sans-serif;
+	margin: 0.5% 0% 0% 55%;
+	font-size:75px;
+	color:white;
+	background-color: rgba(0,0,0,0.4);
+	display: inline-block;
+}
+.homepho{
+	 font-family:'Dosis', sans-serif;
+	 margin: 0% 0% 0% 55%;
+	 font-size: 64px;
+	 color:yellow;
+	 display: inline-block;
+}
+.buttonhome{
+	margin: 0% 0% 0% 55%;
+	background:yellow;
+	color: orange;
+	border:none;
+	height: 50px;
+	font-size: 1.4em;
+	padding: 0 1em;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.4);
+	font-family: 'Indie Flower', cursive;
+	font-weight: 900;
+}
+
+.buttonlike{
+	margin: 0% 0% 0% 55%;
+	background:yellow;
+	color: yellow;
+	border:none;
+	height: 50px;
+	font-size: 1.4em;
+	padding: 0 1em;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.4);
+	font-family: 'Indie Flower', cursive;
+	font-weight: 900;
+	float:left;
+}
+
+
+
+/*button{
+	margin: 0% 0% 0% 55%;
+	top:50px;
+	left:50px;
+	transform: translate(-50%,-50%);
+	width:180px;
+	height:50px;
+	background:#262626;
+	text-transform: uppercase;
+	text-align:center;
+	line-height: 50px;
+	color: #ff0;
+	text-decoration: none;
+	letter-spacing: 4px
+	font-family: 'Indie Flower', cursive;
+	font-size:20px;
+	float:right;
+}
+
+button:befor,
+button:after,
+span:befor,
+span:after 
+{
+	content: '';
+	position: absolute;
+	width :10px;
+	height: 10px;
+	background:#ff0;
+	transition:1s;
+	mix-blend-mode: hue;
+
+}
+button:before
+{
+	top:-2px;
+	left:-2px;
+}
+button:after
+{
+	top:-2px;
+	right:-2px;
+}
+
+span:befor
+{
+	bottom: :-2px;
+	left:-2px;
+
+}
+span:after 
+{
+	bottom: :-2px;
+	right: :-2px;
+}
+button:hover:befor,
+button:hover:after,
+button:hover span:befor,
+button:hover span:after{
+	width:calc(180px / 2);
+	height: calc(50px /2);
+}*/
+
+
+
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

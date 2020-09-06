@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,700');
+
+
+header{
+	background-color: skyblue;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 50px;
+
+}
+header h1{
+	  display: inline;
+	  font-family: 'Indie Flower', cursive;
+	  font-weight: 500;
+	  font-size: 32px;
+	  float: left;
+	  margin-top: 0px; 
+	  margin-right: 10px;
+
+}
+nav ul{
+	display: inline;
+	padding: 0px;
+	float: left;
+
+}
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left :10px; 
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+
+
+}
+#nav{
+font-family: 'Dosis', sans-serif;
+}
+.hred{
+	background-color: red;
+	padding: 30px 10px 16px 10px;
+}
+
+.logo-right {
+    text-align: center;
+    float:left;
+    margin:  0% 0% 0% 35%;
+    background-color: none;
+    color: yellow;
+   /* background-color: rgba(0,0,0,0.4);*/
+}
+/*.down{
+	text-align: center;
+    float:left;
+    margin:  0% 0% 0% 55%;
+    background-color: none;
+    color: red;*/
+}
+#ii{
+	
+font-family: 'Dosis', sans-serif;
+}
+ul{
+	display: inline;
+	padding: 0px;
+	float: left;
+
+}
+ ul li{
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left :10px; 
+}
+ ul li i{
+	color: white;
+	text-decoration: none;
+}
